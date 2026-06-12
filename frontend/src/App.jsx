@@ -144,11 +144,11 @@ export default function App() {
 
 function RecentCard({ idea, onClick }) {
   const VALUE_COLORS = {
-    'Justice':               '#5b7fe8',
-    'Real Human Connection': '#e8965b',
-    'Courage':               '#e85b7f',
-    'Advocacy':              '#6ab85b',
-    'Goodness':              '#a85be8',
+    'Advocacy':   '#6ab85b',
+    'Connection': '#e8965b',
+    'Creativity': '#a85be8',
+    'Family':     '#e85b7f',
+    'Integrity':  '#5b7fe8',
   }
   const color = VALUE_COLORS[idea.value] || 'var(--pink)'
 

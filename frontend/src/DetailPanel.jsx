@@ -3,11 +3,11 @@ import React, { useState } from 'react'
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5001'
 
 const VALUE_COLORS = {
-  'Justice':               { bg: '#f0f4ff', accent: '#5b7fe8', dot: '#5b7fe8' },
-  'Real Human Connection': { bg: '#fff8f0', accent: '#e8965b', dot: '#e8965b' },
-  'Courage':               { bg: '#fff0f4', accent: '#e85b7f', dot: '#e85b7f' },
-  'Advocacy':              { bg: '#f4fff0', accent: '#6ab85b', dot: '#6ab85b' },
-  'Goodness':              { bg: '#fdf0ff', accent: '#a85be8', dot: '#a85be8' },
+  'Advocacy':   { bg: '#f4fff0', accent: '#6ab85b', dot: '#6ab85b' },
+  'Connection': { bg: '#fff8f0', accent: '#e8965b', dot: '#e8965b' },
+  'Creativity': { bg: '#fdf0ff', accent: '#a85be8', dot: '#a85be8' },
+  'Family':     { bg: '#fff0f4', accent: '#e85b7f', dot: '#e85b7f' },
+  'Integrity':  { bg: '#f0f4ff', accent: '#5b7fe8', dot: '#5b7fe8' },
 }
 
 export default function DetailPanel({ idea, onClose, onDelete }) {

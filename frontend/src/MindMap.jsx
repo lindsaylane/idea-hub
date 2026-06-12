@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 
 const VALUES = [
-  { name: 'Justice',               color: '#5b7fe8', light: '#eef1ff' },
-  { name: 'Real Human Connection', color: '#e8965b', light: '#fff6ee' },
-  { name: 'Courage',               color: '#e85b7f', light: '#fff0f4' },
-  { name: 'Advocacy',              color: '#6ab85b', light: '#f0fff0' },
-  { name: 'Goodness',              color: '#a85be8', light: '#f8f0ff' },
+  { name: 'Advocacy',   color: '#6ab85b', light: '#f0fff0' },
+  { name: 'Connection', color: '#e8965b', light: '#fff6ee' },
+  { name: 'Creativity', color: '#a85be8', light: '#f8f0ff' },
+  { name: 'Family',     color: '#e85b7f', light: '#fff0f4' },
+  { name: 'Integrity',  color: '#5b7fe8', light: '#eef1ff' },
 ]
 
 export default function MindMap({ ideas, onSelectIdea }) {
